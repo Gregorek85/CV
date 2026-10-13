@@ -300,8 +300,8 @@ a:focus-visible {
 .role {
   display: grid;
   grid-template-columns: minmax(145px, 0.4fr) minmax(0, 1.6fr);
-  gap: 34px;
-  padding: 27px 0;
+  gap: 30px;
+  padding: 20px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -496,7 +496,7 @@ a:focus-visible {
 
 @media print {
   @page {
-    margin: 6mm;
+    margin: 5mm;
     size: A4;
   }
 
@@ -516,20 +516,20 @@ a:focus-visible {
   }
 
   .intro {
-    grid-template-columns: minmax(0, 1fr) 38mm;
-    gap: 8mm;
+    grid-template-columns: minmax(0, 1fr) 30mm;
+    gap: 7mm;
     align-items: center;
-    padding: 11mm 12mm 10mm;
+    padding: 5mm 8mm 4mm;
   }
 
   h1 {
-    margin: 4mm 0;
-    font-size: 42pt;
+    margin: 1.5mm 0;
+    font-size: 27pt;
   }
 
   .intro__summary {
-    font-size: 9.5pt;
-    line-height: 1.4;
+    font-size: 9pt;
+    line-height: 1.25;
   }
 
   .intro__actions {
@@ -541,21 +541,21 @@ a:focus-visible {
   }
 
   .intro__photo {
-    width: 38mm;
-    border-width: 1.5mm;
+    width: 30mm;
+    border-width: 1.2mm;
   }
 
   .resume__body {
-    grid-template-columns: 51mm minmax(0, 1fr);
+    grid-template-columns: 45mm minmax(0, 1fr);
   }
 
   .sidebar {
     display: block;
-    padding: 8mm 4mm 9mm 7mm;
+    padding: 5mm 3.5mm 6mm 4.5mm;
   }
 
   .sidebar section + section {
-    margin-top: 7mm;
+    margin-top: 4mm;
   }
 
   .sidebar h2 {
@@ -577,7 +577,7 @@ a:focus-visible {
   }
 
   .skills {
-    gap: 3mm;
+    gap: 2.4mm;
   }
 
   .skills p {
@@ -590,25 +590,25 @@ a:focus-visible {
   }
 
   .content {
-    padding: 8mm 12mm 9mm 8mm;
+    padding: 5mm 8mm 5mm 5mm;
   }
 
   .section + .section {
-    margin-top: 8mm;
+    margin-top: 2.5mm;
   }
 
   .section__heading {
-    margin-bottom: 4mm;
+    margin-bottom: 1.5mm;
   }
 
   .section__heading h2 {
-    font-size: 22pt;
+    font-size: 16pt;
   }
 
   .role {
-    grid-template-columns: 26mm minmax(0, 1fr);
-    gap: 4mm;
-    padding: 9px 0;
+    grid-template-columns: 24mm minmax(0, 1fr);
+    gap: 3mm;
+    padding: 3px 0;
     break-inside: avoid;
   }
 
@@ -618,43 +618,51 @@ a:focus-visible {
   }
 
   .role__meta p + p {
-    margin-top: 1.5mm;
+    margin-top: 1mm;
   }
 
   .role__content h3,
   .education-grid h3 {
-    margin-bottom: 2mm;
-    font-size: 10.1pt;
+    margin-bottom: 1.2mm;
+    font-size: 9.3pt;
   }
 
   .role__content ul {
-    gap: 1mm;
+    gap: 0.8mm;
     padding-left: 4mm;
-    font-size: 8.7pt;
-    line-height: 1.38;
+    font-size: 8.5pt;
+    line-height: 1.25;
   }
 
   .education-grid {
-    gap: 4mm;
+    gap: 3mm;
   }
 
   .education-grid article {
-    padding-top: 3mm;
+    padding-top: 1.2mm;
     break-inside: avoid;
   }
 
   .education__date {
-    margin-bottom: 3mm;
+    margin-bottom: 1.2mm;
+  }
+
+  .education-grid h3 {
+    font-size: 8.8pt;
+    line-height: 1.25;
   }
 
   .education-grid p:last-child {
-    font-size: 7.9pt;
+    font-size: 7.5pt;
+    line-height: 1.3;
   }
 
   .footer {
     gap: 8mm;
-    padding: 4mm 12mm;
-    font-size: 6.8pt;
+    padding: 1.5mm 8mm 0mm;
+    font-size: 6.2pt;
+    line-height: 1.25;
+    margin-bottom: 0;
   }
 
   .intro,
